@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        int i=4; double d=4.0; String s="HackerRank ";
+  //System.out.println("Enter: ");
+        Scanner sc=new Scanner(System.in);
+         int num=sc.nextInt();
+        double dbl=sc.nextDouble();
+        String str=sc.nextLine();
+        str=sc.nextLine();
+        sc.close();
+        System.out.println(i+num);
+        System.out.println(d+dbl);
+        System.out.println(s.concat(str));
+        
+    }
+}
